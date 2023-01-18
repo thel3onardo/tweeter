@@ -12,6 +12,6 @@
 
 <button class="btn btn-filled-primary btn-base">Skeleton</button>
 <span class="badge badge-filled-secondary">Skeleton</span>
-<span class="chip">Skeleton</span>
+<span class="chip">Skeletons</span>
 <RangeSlider max={100} step={5} ticked>Oi</RangeSlider>
 <SlideToggle>(label)</SlideToggle>
