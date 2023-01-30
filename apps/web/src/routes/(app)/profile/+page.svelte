@@ -1,5 +1,6 @@
 <script lang="ts">
-    import ProfilePicture from '$lib/components/Profile/ProfilePicture.svelte';
+    import FollowButton from '$lib/components/Buttons/FollowButton.svelte';
+import ProfilePicture from '$lib/components/Profile/ProfilePicture.svelte';
     import Icon from '@iconify/svelte';
 
     const capePic = `https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700122185.jpg`
@@ -28,10 +29,7 @@
             </div>
         </div>
         <div class="pt-6">
-            <button class="btn btn-filled-primary btn-base">
-                <Icon icon="mingcute:user-add-fill" class="text-sm" />
-                <span class="text-xs font-medium">Follow</span>
-            </button>
+            <FollowButton />
         </div>
     </div>
 </div>
