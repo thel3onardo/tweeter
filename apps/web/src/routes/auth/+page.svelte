@@ -7,7 +7,6 @@
             <div class="flex flex-col">
                 <h2 class="font-poppins font-semibold text-3xl">Welcome back!</h2>
                 <p class="text-surface-300 mt-2 mb-6 unstyled">Log in into your account and connect to the world.</p>
-
                 <div class="my-4">
                     <label for="email">
                         <span class="font-noto font-medium">E-mail</span>
